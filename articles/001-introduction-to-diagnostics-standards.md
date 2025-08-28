@@ -14,7 +14,7 @@ Standards are shared agreements on “how we do things,” so teams can interope
 - **Transport & networks** like **CAN (ISO 11898)** and **CAN‑TP (ISO 15765‑2)** move UDS messages; **DoIP (ISO 13400)** brings IP/Ethernet speed.  
 - **OBD/Emissions** families (e.g., **ISO 15031**, **SAE J1979**, **SAE J2012**) ensure inspection tools can read standardized data and trouble codes.  
 - **WWH‑OBD (ISO 27145)** harmonizes emissions diagnostics globally.  
-- **SOVD** (service‑oriented diagnostics) uses **HTTP/REST + JSON + OAuth** to work natively with modern HPCs, on‑board/off‑board, and in the cloud; its ISO track is **ISO 17978**. [1](https://www.roboticlab.eu/homelab/_media/en/av/autonomy_and_autonomous_systems/autonomy/sae_j3016_levels_of_automation_graphic.pdf)[2](https://github.com/eclipse-opensovd/.eclipsefdn)
+- **SOVD** (service‑oriented diagnostics) uses **HTTP/REST + JSON + OAuth** to work natively with modern HPCs, on‑board/off‑board, and in the cloud; its ISO track is **ISO 17978**.
 
 **Where SOVD fits**  
 SOVD doesn’t delete UDS; it complements it. You can keep UDS for legacy flows and use SOVD for web‑style discovery, data access, logging, and routine execution—bridging via gateway/adapters when needed. [3](https://www.asam.net/standards/detail/sovd/)
@@ -28,4 +28,8 @@ Each Saturday I post a short explainer here and a runnable example in **SOVD‑L
 > **Rate this article** or **propose a scenario**: open an issue using the templates in this repo.
 
 **References**  
-ASAM SOVD overview; ISO 17978 draft page; AUTOSAR SOVD explainer. [1](https://www.roboticlab.eu/homelab/_media/en/av/autonomy_and_autonomous_systems/autonomy/sae_j3016_levels_of_automation_graphic.pdf)[2](https://github.com/eclipse-opensovd/.eclipsefdn)[3](https://www.asam.net/standards/detail/sovd/)
+ASAM SOVD overview; ISO 17978 draft page; AUTOSAR SOVD explainer. 
+> [2](https://www.asam.net/standards/detail/sovd/)
+> [3](https://www.iso.org/standard/85133.html)
+> [4](https://www.iso.org/standard/86586.html)
+> [5](https://www.iso.org/standard/86587.html)
