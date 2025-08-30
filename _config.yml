@@ -3,3 +3,8 @@ description: Short, IP-safe versions of my diagnostics articles with runnable li
 theme: jekyll-theme-cayman
 markdown: kramdown
 permalink: /:title/
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:name/
