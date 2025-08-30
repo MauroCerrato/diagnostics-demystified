@@ -2,4 +2,4 @@ title: Diagnostics Demystified
 description: Short, IP-safe versions of my diagnostics articles with runnable links to SOVD-Lab.
 theme: jekyll-theme-cayman
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:title/
