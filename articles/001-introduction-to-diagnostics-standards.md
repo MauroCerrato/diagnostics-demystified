@@ -18,7 +18,7 @@ Standards are shared agreements on “how we do things,” so teams can interope
 - **SOVD** (service‑oriented diagnostics) uses **HTTP/REST + JSON + OAuth** to work natively with modern HPCs, on‑board/off‑board, and in the cloud; its ISO track is **ISO 17978**.
 
 **Where SOVD fits**  
-SOVD doesn’t delete UDS; it complements it. You can keep UDS for legacy flows and use SOVD for web‑style discovery, data access, logging, and routine execution—bridging via gateway/adapters when needed. [3](https://www.asam.net/standards/detail/sovd/)
+SOVD doesn’t delete UDS; it complements it. You can keep UDS for legacy flows and use SOVD for web‑style discovery, data access, logging, and routine execution—bridging via gateway/adapters when needed. [1](https://www.asam.net/standards/detail/sovd/)
 
 **Next week**: I`ll dive into OBD-II protocols—quirky, diverse, and still shaping everyday diagnostics.
 
