@@ -7,10 +7,11 @@ title: 001 — Introduction to Automotive Diagnostics Standards
 *What they are, and why they matter.*
 
 **Why standards exist**  
+Back in 1998, I didn’t even know what ISO meant—today, standards are my daily work. Here’s why they matter.
 Standards are shared agreements on “how we do things,” so teams can interoperate safely and repeatably. In diagnostics, they make sure tools and ECUs can discover capabilities, read/write data, manage faults, and execute routines in predictable ways.
 
 **A quick map of today’s landscape**  
-- **UDS (ISO 14229)** defines a common set of diagnostic services many ECUs speak today.  
+- **UDS (ISO 14229)** defines a common set of diagnostic services that many ECUs speak today.  
 - **Transport & networks** like **CAN (ISO 11898)** and **CAN‑TP (ISO 15765‑2)** move UDS messages; **DoIP (ISO 13400)** brings IP/Ethernet speed.  
 - **OBD/Emissions** families (e.g., **ISO 15031**, **SAE J1979**, **SAE J2012**) ensure inspection tools can read standardized data and trouble codes.  
 - **WWH‑OBD (ISO 27145)** harmonizes emissions diagnostics globally.  
@@ -19,8 +20,10 @@ Standards are shared agreements on “how we do things,” so teams can interope
 **Where SOVD fits**  
 SOVD doesn’t delete UDS; it complements it. You can keep UDS for legacy flows and use SOVD for web‑style discovery, data access, logging, and routine execution—bridging via gateway/adapters when needed. [3](https://www.asam.net/standards/detail/sovd/)
 
+**Next week**: I`ll dive into OBD-II protocols—quirky, diverse, and still shaping everyday diagnostics.
+
 **How to learn this quickly**  
-Each Saturday I post a short explainer here and a runnable example in **SOVD‑Lab**—so you can try it in minutes:
+Each Saturday, I post a short explainer here, and each Wednesday, a runnable example in **SOVD‑Lab**—so you can try it in minutes:
 - Run the compose stack  
 - Call a few endpoints  
 - See faults/data/routines in action
