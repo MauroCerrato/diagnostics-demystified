@@ -17,7 +17,7 @@ This is my **personal** space and reflects **my own opinions**. It does **not** 
 - 001 — Introduction to Automotive Diagnostics Standards  
 - 002 — Overview of Key Diagnostics Standards  
 - 003 — The Evolution of Diagnostic Standards *(placeholder)*  
-- 004 — Basics of OBD‑II *(placeholder)*  
+- 004 — Basics of OBD‑II
 - 005 — Inside OBD‑II: protocol implementation alternatives *(placeholder)*  
 - 006 — Understanding ISO 14229 (UDS) *(placeholder)*
 
