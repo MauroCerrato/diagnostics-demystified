@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 001 — Introduction to Automotive Diagnostics Standards
+description: "Part of the Diagnostics Demystified series by Mauro Cerrato"
 ---
 
 # Introduction to Automotive Diagnostics Standards  
