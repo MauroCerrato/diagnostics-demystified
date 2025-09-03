@@ -152,23 +152,22 @@ Let’s explore a complex case: “The vehicle has enough battery voltage, the M
 
 
 **Diagnostic Steps**
-	Check fuel pressure
-	Analyze oxygen sensor readings
-	Inspect misfire counters
-	Verify petrol & LPG injectors
-	Confirm regulator and switch-over behavior
+	- Check fuel pressure
+	- Analyze oxygen sensor readings
+	- Inspect misfire counters
+	- Verify petrol & LPG injectors
+	- Confirm regulator and switch-over behavior
 
 🧠 In this real case, the root cause was unclear — the car had to be scrapped after 200k km. A tough decision!
 
 *Regional Differences*
-	Europe (EOBD) – Includes DPF and NOx monitoring
-	USA (OBD-II) – Mandatory since 1996
-	Japan (JOBD) – Tailored for hybrid systems
+	- Europe (EOBD) – Includes DPF and NOx monitoring [1]
+	- USA (OBD-II) – Mandatory since 1996 [2]
+	- Japan (JOBD) – Tailored for hybrid systems [3]
 
 *Case Studies*
-	Germany – Bosch KTS tool for VW, BMW, Mercedes
-	USA – Autel MaxiSys for American & Asian vehicles
-	Japan – Launch X431 for Toyota, Honda, Nissan
+	- USA – Autel MaxiSys for American & Asian vehicles [5]
+	- Japan – Launch X431 for Toyota, Honda, Nissan [6]
 
 *Conclusion*
 OBD-II has revolutionized diagnostics. It empowers technicians with standardized access to vehicle data, enabling faster repairs and better emissions control.
@@ -180,3 +179,11 @@ https://github.com/MauroCerrato/diagnostics-demystified/tree/main/articles
 
 Code Example:
 https://github.com/MauroCerrato/sovd-lab/tree/main/examples/obd2-sovd-sim
+
+**References**  
+Regional differences and Case Studies
+> [1](http://www.volkspage.net/technik/ssp/ssp/SSP_315.PDF)
+> [2](https://www.irjet.net/archives/V3/i3/IRJET-V3I3321.pdf)
+> [3](https://www.thesubaruforums.com/threads/jobd-on-japanese-models.10075/)
+> [5](https://www.iamcarhacker.com/best-bi-directional-obd-ii-scanners/)
+> [6](https://dieselnet.com/news/2018/03sae.php)
