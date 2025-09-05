@@ -174,11 +174,9 @@ OBD-II has revolutionized diagnostics. It empowers technicians with standardized
 Whether you're in Europe, the USA, or Japan — OBD-II is your gateway to smarter diagnostics.
 
 🔗 GitHub Resources
-Article Repo:
-https://github.com/MauroCerrato/diagnostics-demystified/tree/main/articles
+[Article Repo](https://maurocerrato.github.io/diagnostics-demystified/)
 
-Code Example:
-https://github.com/MauroCerrato/sovd-lab/tree/main/examples/obd2-sovd-sim
+[Code Example](https://github.com/MauroCerrato/sovd-lab/tree/main/examples/obd2-sovd-sim)
 
 **References**  
 Regional differences and Case Studies
