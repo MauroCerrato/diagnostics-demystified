@@ -3,47 +3,74 @@ layout: default
 title: 002 — Overview of Key Diagnostics Standards
 ---
 
-# Overview of Key Diagnostics Standards  
-*Brief descriptions and why they matter.*
+# Overview of Key Diagnostics Standards
+*How they shape vehicle diagnostics today.*
 
-**UDS — ISO 14229**  
-Today’s workhorse for off‑board and in‑vehicle diagnostics. It standardizes service families (sessions, data read/write, security, routines), so tools and ECUs interoperate across brands. (Transports below move these messages.)
+**Why standards matter**  
+Diagnostics standards are agreements that ensure vehicles and tools can “speak the same language.”  
+They enable the reading of data, exchange of fault codes, and performance of tests across different ECUs and tools—without reinventing the wheel every time.
 
-**CAN & CAN‑TP — ISO 11898 / ISO 15765‑2**  
-CAN is the real‑time vehicle bus; CAN‑TP segments large diagnostic payloads into frames. Still critical for in‑vehicle UDS traffic.
+---
 
-**DoIP — ISO 13400**  
-Diagnostics over IP/Ethernet for higher bandwidth and remote scenarios. A good fit for HPC‑centric vehicles and large data transfers. (Recent updates emphasize secure transport and network services.) 
+## ISO 14229 — Unified Diagnostic Services (UDS)  
+UDS defines a broad set of services that most modern ECUs utilize today, including reading and writing data, managing fault memory, performing software updates, and running system routines.  
+Its strength lies in unifying these use cases into one protocol that both vehicles and diagnostic tools can implement consistently.
 
-**UDS on IP — ISO 14229‑5**  
-Runs UDS over IP/Ethernet—useful for fast shop networks or controlled remote diagnostics.
+---
 
-**KWP2000 — ISO 14230 & UDS on K‑Line — ISO 14229‑6**  
-Legacy but still relevant for older ECUs/vehicles and specific single‑wire setups.
+## ISO 13400 — Diagnostics over Internet Protocol (DoIP)  
+DoIP brings diagnostics to the Ethernet world. It allows high-speed data exchange, essential for today’s vehicles, where large data sets (e.g., ADAS, infotainment) need to be inspected or updated quickly.  
+It also opens the door for remote diagnostics, connecting vehicles and tools through IP networks.
 
-**WWH‑OBD — ISO 27145**  
-Harmonizes emissions diagnostics globally; aligns data and DTCs with SAE definitions so generic tools can read consistent emissions information.
-**OBD data & DTCs — ISO 15031, SAE J1979, SAE J2012**  
-Defines emissions‑related PIDs/test modes (J1979) and trouble code definitions (J2012), with ISO 15031 providing vehicle↔tool comms alignment.
+---
 
-**Where SOVD comes in (HTTP/REST + JSON + OAuth)**  
-SOVD provides a web‑style API across proximity, remote, and in‑vehicle scenarios; the ISO series is **17978**. Many platforms will bridge UDS ↔ SOVD during transition. 
+## ISO 11898 & ISO 15765 — CAN and CAN-TP  
+CAN (Controller Area Network) is the backbone of in-vehicle communication.  
+ISO 15765-2 (CAN-TP) enables long diagnostic messages to be split into smaller pieces and reliably transported across the CAN bus.  
+Together they make diagnostics over CAN practical—from simple fault code reads to full firmware updates.
 
-> Want to try it? See **SOVD‑Lab** for a mock gateway + minimal SOVD‑like endpoints.
+---
 
-**References**  
-ASAM SOVD overview; ISO 17978 (SOVD) draft; DoIP update references, ISO multiple project references. 
-> [2](https://www.asam.net/standards/detail/sovd/)
-> [3](https://www.iso.org/standard/85133.html)
-> [4](https://www.iso.org/standard/86586.html)
-> [5](https://www.iso.org/standard/86587.html)
-> [7](https://www.iso.org/standard/13400-2)
-> [8](https://www.iso.org/standard/72439.html)
-> [9](https://www.iso.org/standard/86384.html)	
-> [10](https://www.iso.org/standard/85120.html)
-> [11](https://www.iso.org/standard/84211.html)
-> [12](https://www.iso.org/standard/76882.html)
-> [13](https://www.iso.org/standard/55288.html)
-> [14](https://www.iso.org/standard/46273.html)
+## SAE J1979 & J2012 — OBD-II Test Modes and Trouble Codes  
+These standards define how emission-relevant data can be retrieved and how fault codes (DTCs) are structured.  
+Every scan tool in a workshop relies on them, ensuring mechanics can read codes like “P0300” and know what they mean, regardless of the vehicle brand.
+
+---
+
+## ISO 27145 — WWH-OBD  
+World-Wide Harmonized OBD is a step toward global emissions compliance.  
+It reuses core UDS services but defines a harmonized data set, so inspection authorities worldwide can rely on consistent diagnostic results.
+
+---
+
+## ISO 14230 & ISO 14229-6 — KWP2000 and UDS on K-Line  
+Before CAN and Ethernet, K-Line was the workhorse of diagnostics.  
+Many older vehicles still use it, and newer standards like UDS were even adapted to run on top of K-Line.  
+It shows how diagnostic concepts evolve while ensuring backwards compatibility.
+
+---
+
+## ISO 14229-5 — UDS on IP  
+As Ethernet adoption grows, UDS itself has been extended to run over IP networks.  
+This combination allows a smooth transition: legacy UDS use cases, but with high-speed transport.
+
+---
+
+## ISO 15031 & SAE J1930 — Language and Interfaces  
+ISO 15031 defines how vehicles and external equipment should communicate, while SAE J1930 standardizes the vocabulary.  
+Having a common terminology is as important as having a common protocol: it avoids misinterpretations across brands, regions, and tools.
+
+---
+
+**Putting it all together**  
+This collection of standards forms the foundation of today’s diagnostics.  
+From legacy K-Line systems to modern DoIP setups, from emission testing to advanced data services, they ensure interoperability, compliance, and innovation across vehicle types and regions.
+
+Diagnostics is not about one single protocol—it’s about connecting the dots.  
+Understanding how these standards fit together helps both engineers and technicians build tools and workflows that actually work.
+
+---
+
+💻 *Runnable demos and simplified scenarios are available in my [SOVD-Lab](https://github.com/MauroCerrato/sovd-lab).*
 
 
