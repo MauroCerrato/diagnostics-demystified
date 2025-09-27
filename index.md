@@ -15,6 +15,8 @@ Here’s the growing list of article links:
 - [003 — The Evolution of Diagnostic Standards](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/003-evolution-of-standards.md)
 - [004 - OBD2 Basics](articles/004-obd2-basics.md)
 - _*005 - coming soon*_
-- _*006 - coming soon*_
+- [004 - Understanding UDS](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/006-understanding-iso-14229-uds.md)
+- _*007 - coming soon*_
+- _*008 - coming soon*_
 
 > Feedback welcome: open an issue to **rate an article** or **propose a scenario**.
