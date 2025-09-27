@@ -16,10 +16,12 @@ This is my **personal** space and reflects **my own opinions**. It does **not** 
 ## Articles
 - 001 — Introduction to Automotive Diagnostics Standards  
 - 002 — Overview of Key Diagnostics Standards  
-- 003 — The Evolution of Diagnostic Standards *(placeholder)*  
+- 003 — The Evolution of Diagnostic Standards
 - 004 — Basics of OBD‑II
 - 005 — Inside OBD‑II: protocol implementation alternatives *(placeholder)*  
-- 006 — Understanding ISO 14229 (UDS) *(placeholder)*
+- 006 — Understanding ISO 14229 (UDS)
+- 007 — How to diagnose a braking system without losing sight of SOTIF *(placeholder)*
+- 008 — OBD-II quirks (real life feedbacks) *(placeholder)*
 
 > For SOVD background: ASAM overview; ISO 17978 series (parts -1, -2, -3); Eclipse Automotive OpenSovd.
 > [2](https://www.asam.net/standards/detail/sovd/)
