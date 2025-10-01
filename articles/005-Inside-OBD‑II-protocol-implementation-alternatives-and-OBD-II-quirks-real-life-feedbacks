@@ -1,0 +1,36 @@
+---
+layout: page
+title: 005 - Inside OBD II protocol implementation alternatives and OBD-II quirks real-life feedbacks
+description: "Part of the Diagnostics Demystified series by Mauro Cerrato"
+---
+
+# 🚀 From Zero to Go (in a container): lessons from SOVD-Lab on PWD Play-with-Docker (Wed tech)
+
+This week, SOVD-Lab gained a new service: a tiny **Go microservice** that serves `/healthz` and `/data/ident/vin`.  
+Sounds simple? The real learning started once I moved from “hello world” to a **four-node simulation** on [Play with Docker](https://labs.play-with-docker.com/).
+
+### Why I did this
+My goal was pragmatic:  
+- add a Go service without installing runtimes locally,  
+- strengthen observability and health,  
+- keep the workflow copy-paste simple.
+
+### What broke (and how I fixed it)
+- **Healthchecks**: distroless images lack `curl` → healthchecks fail. Fixed with Alpine + `apk add curl`.  
+- **YAML gotchas**: unquoted URLs, CRLF line endings → “mapping values not allowed” errors. Fixed by quoting and normalizing line endings.  
+- **Go toolchain**: no local install; solved with two containerized paths (`golang:1.22-alpine` bind mount or `apk add go`).  
+- **Gateway mystery**: “container up but unreachable” until I forced bind to `0.0.0.0:8081`.
+
+Each fix took minutes instead of days once I understood the pattern.
+
+### What I shipped
+✅ A working Go service in SOVD-Lab  
+✅ Single-host and multi-host `compose.yaml`  
+✅ Copy-paste commands for Play-with-Docker  
+
+### What’s next
+- CI with OpenAPI validation  
+- OpenTelemetry traces + metrics  
+- Updated OBD-II scenarios (coming Saturday)
+
+> Every bug became a lesson. Debugging on PWD turned out to be my fastest way to learn Go *and* sharpen my container troubleshooting skills.
