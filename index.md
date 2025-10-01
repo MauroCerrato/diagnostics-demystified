@@ -14,8 +14,8 @@ Here’s the growing list of article links:
 - [002 — Overview of key standards](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/002-overview-of-key-standards.md)
 - [003 — The Evolution of Diagnostic Standards](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/003-evolution-of-standards.md)
 - [004 - OBD2 Basics](articles/004-obd2-basics.md)
-- _*005 - coming soon*_
-- [004 - Understanding UDS](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/006-understanding-iso-14229-uds.md)
+- [005 - OBD2 in real life](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/005-Inside-OBD%E2%80%91II-protocol-implementation-alternatives-and-OBD-II-quirks-real-life-feedbacks)
+- [006 - Understanding UDS](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/006-understanding-iso-14229-uds.md)
 - _*007 - coming soon*_
 - _*008 - coming soon*_
 
