@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: 005 - Inside OBD-II protocol implementation alternatives and OBD-II quirks real-life feedbacks
 description: "Part of the Diagnostics Demystified series by Mauro Cerrato"
 ---
