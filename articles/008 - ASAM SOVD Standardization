@@ -1,0 +1,80 @@
+---
+title: "Demystifying Diagnostics – ASAM SOVD: From 1.0 to 1.2 and Beyond"
+date: 2025-10-16
+layout: post
+tags: [SOVD, ASAM, diagnostics, OpenAPI, standardization]
+---
+
+# 🔍 Demystifying Diagnostics – ASAM SOVD: From 1.0 to 1.2 and Beyond
+
+After two intense days of collaborative discussion, the ASAM SOVD 1.2 Content Definition Workshop has wrapped up — and I’m excited to share a recap of where we’ve been, where we are, and where we’re heading.
+
+This article is part of my ongoing series exploring diagnostics standardization from a hands-on, real-world perspective. In this edition, I’ll walk through the evolution of the SOVD standard, how the drafting process works, what I expected to see discussed (and what actually happened), and what’s next for the community.
+
+---
+
+## 1️⃣ From 1.0 to 1.1 and Now 1.2: A Quick Recap
+
+The journey of the SOVD standard began with version 1.0, which laid the foundation for a modern, service-oriented diagnostics API. It introduced key concepts like resource-based access, OpenAPI-driven definitions, and a shift toward RESTful communication.
+
+Version 1.1 brought refinements, clarifications, and early feedback from pilot implementations. It also aligned more closely with international standardization efforts, leading to the ISO Draft International Standard (DIS) version.
+
+Now, with version 1.2 on the horizon, the focus is shifting toward **real-world scalability**, **multi-client orchestration**, and **cross-domain interoperability** — especially for complex vehicle architectures and multi-vendor ecosystems.
+
+---
+
+## 2️⃣ How the Drafting Process Works
+
+The drafting of ASAM SOVD 1.1 and the ISO DIS version followed a structured, collaborative process:
+
+- **Working groups** formed around areas of shared interest, manifested with ASAM and ISO comment resolution meetings, each with dedicated contributors and sometimes very detailed change proposals.
+- **Company-specific proposals** were submitted, discussed, and refined.
+- **Consensus-building** was emphasized — not every idea made it in the ISO DIS version, but all were heard. Those that were considered still valuable where hand back to ASAM into a well documented "wishlist", the backlog of all the SOVD change requests.
+- **ISO alignment** was pursued in parallel, with the goal of harmonizing ASAM and ISO deliverables, accepting comments&change requests from both the ASAM participants and the formal ISO DIS international voting.
+
+The ASAM SOVD 1.2 process continues this model, with a stronger emphasis on **cluster-based ownership** and **active contribution**. 
+Each cluster has now a clearly assigned expert and will be self organizing the real work meetings.
+Each cluster is expected to produce its own requirement set, with regular checkpoints and physical meetings planned through 2026 in order to keep all of the clusters aligned at the broader ASAM working group level.
+
+---
+
+## 3️⃣ SOVD Clusters: Expectations vs. Reality
+
+Here’s a breakdown of the topics I personally hoped to see discussed — and how they fared during the workshop:
+
+| **Topic** | **Expectation** | **Reality (Workshop Outcome)** |
+|---------------------------------------------------|---------------------------------------------------------------|-------------------------------|
+| **Proxy-aware URI handling**                      | Raise awareness of the need for standardized URI rewriting in multi-server setups | ✅ Discussed in the *Generic Features* cluster; recognized as essential for public-private SOVD server integration |
+| **Bulk-data streaming & availability**            | Push for streaming support and pre-transfer capability checks | ✅ Covered in *Bulk Data* cluster; streaming, filtering, and third-party delivery were all discussed |
+| **Multi-client prioritization, mTLS, auth/authz** | Explore how to manage concurrent clients securely | ✅ Addressed in *Traditional Use Cases* and *Generic Features*; lock handling and client metadata were debated |
+| **UDS functional comm. vs SOVD Functions**        | Clarify the distinction and overlap | ✅ Heavily discussed in *Functions* and *Functional Communication* clusters; definitions still evolving |
+| **Classic Diagnostics Adapter extensions**        | Propose enhancements for legacy protocol integration | ✅ Explored in *Classic Adapter* cluster; new ideas like parameter control and update orchestration surfaced |
+| **Time series & aggregated monitoring**           | Advocate for long-term data access and event correlation | ✅ Discussed in *Data Access* cluster; prognosis and time series APIs proposed, with alignment challenges noted |
+| **Remote debugging, testability, logging**        | Highlight need for better observability tools | ✅ Logging and testability discussed in multiple clusters; streaming logs and traceability improvements proposed |
+| **Resource ID & URI path best practices**         | Push for consistent naming and path design | ✅ Addressed in *Generic Features*; best practices and OpenAPI constraints discussed |
+| **HSI & Truck/Trailer standardization**           | Ensure Ag, Construction, and HDV use cases are represented | ✅ Discussed in *Generic Features* and *Data Access*; interest confirmed, with volunteers stepping forward |
+
+In short: **everything I hoped to see on the table was not only discussed — it was challenged, enriched, and in some cases, redefined**. That’s the power of open collaboration.
+
+---
+
+## 4️⃣ What’s Next?
+
+The road to ASAM SOVD 1.2 is long — but well-paved:
+
+- **December 2025**: Official Kick-Off Meeting
+- **February 2026**: First physical checkpoint
+- **June 2026**: Draft requirements finalized per cluster
+- **March 2028**: Target release of ASAM SOVD 1.2
+
+Each cluster will now begin its deep-dive work, with contributors expected to commit time and expertise. Whether you’re a tool vendor, OEM, or developer — this is the moment to get involved.
+
+---
+
+## 🧭 Final Thoughts
+
+The SOVD standard is evolving fast — and it’s doing so in the open. If you care about diagnostics, interoperability, and the future of software-defined vehicles, now is the time to contribute, learn, and shape what comes next.
+
+Stay tuned for more in the next #DemystifyingDiagnostics article — where I’ll explore some of these clusters in depth, while expanding the sovd-lab examples accordingly.
+
+---
