@@ -42,17 +42,32 @@ Each cluster is expected to produce its own requirement set, with regular checkp
 
 Here’s a breakdown of the topics I personally hoped to see discussed — and how they fared during the workshop:
 
-| **Topic** | **Expectation** | **Reality (Workshop Outcome)** |
-|---------------------------------------------------|---------------------------------------------------------------|-------------------------------|
-| **Proxy-aware URI handling**                      | Raise awareness of the need for standardized URI rewriting in multi-server setups | ✅ Discussed in the *Generic Features* cluster; recognized as essential for public-private SOVD server integration |
-| **Bulk-data streaming & availability**            | Push for streaming support and pre-transfer capability checks | ✅ Covered in *Bulk Data* cluster; streaming, filtering, and third-party delivery were all discussed |
-| **Multi-client prioritization, mTLS, auth/authz** | Explore how to manage concurrent clients securely | ✅ Addressed in *Traditional Use Cases* and *Generic Features*; lock handling and client metadata were debated |
-| **UDS functional comm. vs SOVD Functions**        | Clarify the distinction and overlap | ✅ Heavily discussed in *Functions* and *Functional Communication* clusters; definitions still evolving |
-| **Classic Diagnostics Adapter extensions**        | Propose enhancements for legacy protocol integration | ✅ Explored in *Classic Adapter* cluster; new ideas like parameter control and update orchestration surfaced |
-| **Time series & aggregated monitoring**           | Advocate for long-term data access and event correlation | ✅ Discussed in *Data Access* cluster; prognosis and time series APIs proposed, with alignment challenges noted |
-| **Remote debugging, testability, logging**        | Highlight need for better observability tools | ✅ Logging and testability discussed in multiple clusters; streaming logs and traceability improvements proposed |
-| **Resource ID & URI path best practices**         | Push for consistent naming and path design | ✅ Addressed in *Generic Features*; best practices and OpenAPI constraints discussed |
-| **HSI & Truck/Trailer standardization**           | Ensure Ag, Construction, and HDV use cases are represented | ✅ Discussed in *Generic Features* and *Data Access*; interest confirmed, with volunteers stepping forward |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Topic                                      | Expectation                                                 | Reality (Workshop Outcome)                                                                                   |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Proxy-aware URI handling                   | Raise awareness of the need for standardized URI rewriting  | ✅ Discussed in *Generic Features* cluster; recognized as essential for public-private SOVD server           |
+|                                            | in multi-server setups                                      |    integration                                                                                               |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Bulk-data streaming & availability         | Push for streaming support and pre-transfer capability      | ✅ Covered in *Bulk Data* cluster; streaming, filtering, and third-party delivery were all discussed         |
+|                                            | checks                                                      |                                                                                                              |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Multi-client prioritization, mTLS,         | Explore how to manage concurrent clients securely           | ✅ Addressed in *Traditional Use Cases* and *Generic Features*; lock handling and client metadata were       |
+| auth/authz                                 |                                                             |     debated                                                                                                  |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| UDS functional comm. vs SOVD Functions     | Clarify the distinction and overlap                         | ✅ Heavily discussed in *Functions* and *Functional Communication* clusters; definitions still evolving      |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Classic Diagnostics Adapter extensions     | Propose enhancements for legacy protocol integration        | ✅ Explored in *Classic Adapter* cluster; new ideas like parameter control and update orchestration surfaced |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Time series & aggregated monitoring        | Advocate for long-term data access and event correlation    | ✅ Discussed in *Data Access* cluster; prognosis and time series APIs proposed, with alignment challenges    |
+|                                            |                                                             |    noted                                                                                                     |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Remote debugging, testability, logging     | Highlight need for better observability tools               | ✅ Logging and testability discussed in multiple clusters; streaming logs and traceability improvements      |
+|                                            |                                                             |    proposed                                                                                                  |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| Resource ID & URI path best practices      | Push for consistent naming and path design                  | ✅ Addressed in *Generic Features*; best practices and OpenAPI constraints discussed                         |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
+| HSI & Truck/Trailer standardization        | Ensure Ag, Construction, and HDV use cases are represented  | ✅ Discussed in *Generic Features* and *Data Access*; interest confirmed, with volunteers stepping forward   |
++--------------------------------------------+-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------+
 
 In short: **everything I hoped to see on the table was not only discussed — it was challenged, enriched, and in some cases, redefined**. That’s the power of open collaboration.
 
@@ -74,6 +89,10 @@ Each cluster will now begin its deep-dive work, with contributors expected to co
 ## 🧭 Final Thoughts
 
 The SOVD standard is evolving fast — and it’s doing so in the open. If you care about diagnostics, interoperability, and the future of software-defined vehicles, now is the time to contribute, learn, and shape what comes next.
+
+During these two days, what struck me most was not the complexity of the proposals, but the quality of listening.
+Even in a room full of experts, with decades of experience, people were open to challenge, reframe, and rebuild ideas together.
+This, to me, is what standardization should mean — not convergence by compromise, but progress through understanding.
 
 Stay tuned for more in the next #DemystifyingDiagnostics article — where I’ll explore some of these clusters in depth, while expanding the sovd-lab examples accordingly.
 
