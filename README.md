@@ -30,8 +30,8 @@ This is my **personal** space and reflects **my own opinions**. It does **not** 
 - 006 — Understanding UDS (ISO 14229)
 - 007 — How to diagnose a braking system
 - 008 — ASAM SOVD standarization recap
-- 009 -  *(placeholder)*
-- 010 -  *(placeholder)*
+- 009 — SDV redefined and SOVD-Lab recap
+- 010 —  *(placeholder)*
 
 ---
 
