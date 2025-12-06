@@ -31,7 +31,8 @@ This is my **personal** space and reflects **my own opinions**. It does **not** 
 - 007 — How to diagnose a braking system
 - 008 — ASAM SOVD standarization recap
 - 009 — SDV redefined and SOVD-Lab recap
-- 010 —  *(placeholder)*
+- 010 — ALKS (UN-R 157): EU essentials for VKO HAAD
+- 011 —  *(placeholder)*
 
 ---
 
