@@ -19,6 +19,7 @@ Here’s the growing list of article links:
 - [007 - How to diagnose a braking system](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/007%20%E2%80%94%20How%20to%20diagnose%20a%20braking%20system%20without%20losing%20sight%20of%20SOTIF.md)
 - [008 - ASAM SOVD standardization recap](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/008%20-%20ASAM%20SOVD%20Standardization.md)
 - [009 - SDV redefined SOVD-Lab recap](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/009%20-%20SDV%20redefined%20SOVD-Lab%20recap.md)
-- - _*010 - coming soon*_
+- [010 - ALKS (UN-R 157): EU essentials for VKO HAAD](https://github.com/MauroCerrato/diagnostics-demystified/blob/main/articles/010%20-%20ALKS%20UN%E2%80%91R%20157%20%E2%80%94%20EU%20essentials%20for%20VKO%20HAAD.md)
+- - _*011 - coming soon*_
 
 > Feedback welcome: open an issue to **rate an article** or **propose a scenario**.
