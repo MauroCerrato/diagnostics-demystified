@@ -31,7 +31,7 @@ From a VKO perspective, three elements define both system behaviour and evidence
 ALKS must declare explicitly where it drives, which boundaries apply, and how those boundaries are monitored.
 
 ### **2) ToC – Transition of Control**  
-The system must detect when the driver must take over, warn them in time, and follow escalation steps.
+The system must detect when the driver needs to take over, warn them promptly, and follow escalation steps.
 
 ### **3) MRM – Minimum Risk Manoeuvre**  
 If neither the ADS nor the driver can continue safely, ALKS must execute a defined MRM.
@@ -74,8 +74,8 @@ To avoid any proprietary information, I created **synthetic ToC and MRM events**
 
 ### Evidence examples (generated or TODO stubs)
 
-- `docs/haad/compliance-mapping/evidence/2025-12-06_toc_demo.json`  
-- `docs/haad/compliance-mapping/evidence/2025-12-06_mrm_demo.json`
+- `sovd-lab/docs/haad/compliance-mapping/evidence/2025-12-06_toc_demo.json`  
+- `sovd-lab/docs/haad/compliance-mapping/evidence/2025-12-06_mrm_demo.json`
 
 ### Event schemas (AJV-friendly)
 
@@ -135,7 +135,7 @@ DSSAD provides placeholders for:
 - system overrides  
 - MRM start and completion  
 
-SOVD-Lab gives us the playground to attach synthetic traces to these concepts and show how evidence could look in a minimal environment.
+SOVD-Lab provides a playground for attaching synthetic traces to these concepts and demonstrating how evidence could appear in a minimal environment.
 
 ---
 
